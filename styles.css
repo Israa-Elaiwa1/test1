@@ -1,5 +1,7 @@
 /* main.scss */
-/*  utils/_placeholders.scss */
+/*  utils/_placeholders.scss 
+
+testing*/
 .offers-list::after, .home-features-list::after {
   display: block;
   content: '';
