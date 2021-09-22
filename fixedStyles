@@ -1,0 +1,390 @@
+#page-footer a {
+  color: #000 !important;
+}
+
+#fitem_id_submitbutton #id_submitbutton:before,
+#page-login-forgot_password .felement .btn-primary:before,
+#page-login-forgot_password .continuebutton .btn-primary:before 
+ {
+  position: absolute;
+  content: '';
+  top: 5px;
+  height: 100%;
+  background-color: #C11C71;
+  z-index: -1;
+  
+}
+
+
+    
+    
+.onboarding-section #fgroup_id_buttonar span:before,
+.onboarding-section .singlebutton .btn-secondary:before,
+.onboarding-section .singlebutton .btn-primary:before,
+#page-login-confirm .continuebutton .btn-primary{
+  position: absolute;
+  content: '';
+  top: 5px;
+  left: 5px;
+  width: 100%;
+  height: 100%;
+  background-color: #C11C71;
+  z-index: -1;
+}
+
+
+
+/**/
+
+.onboarding-section #fgroup_id_buttonar span {
+position: relative;
+width: 100%;
+display: block;
+border: 1px dashed #C11C71;
+text-align: center;
+padding: 17px 0;
+color: #000;
+background-color: #fff;
+font-size: 18px;
+line-height: 24px;
+font-family: "title-bold", sans-serif;
+}
+.onboarding-section #fgroup_id_buttonar #id_submitbutton {
+  color: black;
+  background-color: white;
+  border: none;
+  font-family: "title-bold", sans-serif;
+}
+
+
+#page-login-forgot_password .fcontainer #fitem_id_username,
+#page-login-forgot_password .fcontainer #fitem_id_submitbuttonusername,
+#page-login-forgot_password .fcontainer #fitem_id_email,
+#page-login-forgot_password .fcontainer #fitem_id_submitbuttonemail {
+  margin: 0 auto !important;
+  width: 100% !important;
+  padding: 10px !important;
+}
+.onboarding-section #fgroup_id_buttonar .btn-cancel,
+.onboarding-section .fdescription,
+#page-login-forgot_password #fitem_id_username .col-form-label,
+#page-login-forgot_password #fitem_id_submitbuttonusername .col-form-label,
+#page-login-forgot_password #fitem_id_email .col-form-label,
+#page-login-forgot_password #fitem_id_submitbuttonemail .col-form-label,
+
+.onboarding-section .onboarding-form h3,
+.onboarding-section .onboarding-form h2,
+.onboarding-section .onboarding-form .card-title,
+.onboarding-section .onboarding-form .collapsible-actions,
+.onboarding-section .onboarding-form .ftoggler,
+.onboarding-section .onboarding-form .col-form-label,
+.onboarding-section .onboarding-form hr,
+.onboarding-section .sr-only a,
+
+#page-login-forgot_password #fitem_id_password .col-form-label,
+#page-login-forgot_password #fitem_id_password2 .col-form-label,
+#page-login-forgot_password #fitem_id_username2 .col-form-label,
+#page-login-forgot_password #fitem_id_passwordpolicyinfo .col-form-label,
+#page-login-forgot_password .before_forgetpass .xlarge-text,
+#page-login-forgot_password  #fgroup_id_buttonar .col-form-label
+{
+  display: none !important;
+}
+
+#page-login-forgot_password #fitem_id_username .felement,
+#page-login-forgot_password #fitem_id_submitbuttonusername .felement,
+#page-login-forgot_password #fitem_id_email .felement,
+#page-login-forgot_password #fitem_id_submitbuttonemail .felement {
+   margin:0 auto !important;
+}
+#page-login-forgot_password .felement #id_username,
+#page-login-forgot_password .felement #id_email {
+padding: 30px 60px !important;
+width: 100%;
+font-family: "title-reg", sans-serif;
+background-color: #fff;
+font-size: 18px;
+line-height: 24px;
+border: 1px dashed #C11C71;
+}
+
+#page-login-forgot_password .felement .btn-primary,
+#page-login-forgot_password .continuebutton .btn-primary,
+#page-login-forgot_password .continuebutton .btn-secondary,
+#page-login-forgot_password #fgroup_id_buttonar .btn-secondary {
+  position: relative;
+  width: 100%;
+  display: block;
+  border: 1px dashed #C11C71;
+  text-align: center;
+  padding: 17px 0;
+  color: #000;
+  background-color: #fff;
+  font-size: 18px;
+  line-height: 24px;
+  box-shadow: 5px 5px #c11c71;
+  font-family: "title-bold", sans-serif !important;
+  
+  }
+
+  #page-login-forgot_password #fgroup_id_buttonar .btn-secondary,
+  #page-login-forgot_password #fgroup_id_buttonar .btn-primary {
+    width: 90% !important;
+
+  }
+  
+  
+    #page-login-forgot_password #fgroup_id_buttonar .btn-secondary {
+    box-shadow: 5px 5px #d5a5be !important;
+    border: 1px dashed #D5A5BE;
+  }
+
+/*signup*/
+
+
+.onboarding-section .onboarding-form .form-control,
+.onboarding-section .onboarding-form .custom-select {
+
+  width: 100%;
+  background-color: #fff;
+  border: 1px dashed #C11C71;
+  padding: 17px 24px;
+  font-family: "title-reg", sans-serif;
+  font-size: 18px;
+  line-height: 24px;
+}
+
+
+
+
+.onboarding-section .onboarding-form .form-control-static,
+.form-group .invalid-feedback,
+.onboarding-section .loginerrors .error_msg,
+#page-login-forgot_password .fdescription { 
+color: rgba(0, 0, 0, 0.38);
+font-family: "title-reg", sans-serif;
+margin-top: 8px;
+font-size: 12px;
+line-height: 16px;
+}
+
+.onboarding-section .onboarding-form .felement {
+max-width: 100%;
+flex: 0 0 100%;
+}
+
+.onboarding-section #fgroup_id_buttonar .fitem,
+#page-login-forgot_password #fgroup_id_buttonar .fitem {
+  width:100% !important;
+}
+.onboarding-section #fgroup_id_buttonar {
+  margin-left: 0;
+}
+
+.onboarding-section .fitem   {
+  margin-bottom: 1rem;
+}
+
+                       
+
+/*Confirmation and after sign up pages*/
+
+
+.onboarding-section h2 {
+font-family: "title-semiBold", sans-serif !important;
+font-size: 32px !important;
+line-height: 40px !important;
+text-align: center !important;
+margin-bottom: 18px !important;
+}
+
+.onboarding-section .generalbox,
+#page-login-signup #notice,
+#page-login-forgot_password .generalbox {  
+  font-family: "title-reg", sans-serif !important;
+  font-size: 16px !important;
+  line-height: 20px !important;
+  color: rgba(0, 0, 0, 0.38) !important;
+  text-align: center !important;
+}
+
+
+
+
+
+#page-login-signup #notice p{
+  margin-top: 18px !important;
+}
+
+#page-login-signup .continuebutton,
+#page-login-confirm .continuebutton,
+#page-login-forgot_password .continuebutton {  
+  width: 340px !important;
+  margin: 0 auto !important;
+  margin-top: 60px !important;
+}
+
+.onboarding-section #fitem_id_submitbutton #id_submitbutton,
+.onboarding-section .btn-secondary,
+.onboarding-section .singlebutton .btn-primary,
+#page-login-confirm .continuebutton .btn-primary,
+#page-login-signup .btn-primary {  
+position: relative !important;
+width: 100% !important;
+margin-top: 60px !important;
+display: block !important;
+border: 1px dashed #C11C71 !important;
+text-align: center !important;
+padding: 17px 0 !important;
+color: #000 !important;
+text-align: center !important;
+background-color: #fff !important;
+font-family: "title-bold", sans-serif !important;
+line-height: 24px !important;
+font-size: 18px !important;
+}
+
+
+
+.onboarding-section #fitem_id_submitbutton #id_submitbutton,
+#page-login-signup .continuebutton .btn-primary { 
+  box-shadow: 5px 5px #c11c71 !important;
+}
+.onboarding-section #fitem_id_submitbutton #id_submitbutton:before,
+#page-login-confirm .btn-secondary:before,
+#page-login-forgot_password #fgroup_id_buttonar span :before {
+  position: absolute !important;
+  content: '' !important;
+  top: 5px !important;
+  width: 100% !important;
+  height: 100% !important;
+  background-color: #C11C71 !important;
+  z-index: -1 !important;
+}
+
+
+
+
+.onboarding-section .alert-danger{ 
+  font-family: "title-reg", sans-serif;
+  font-size: 16px;
+  line-height: 20px;
+  color: #b85e5e;
+  text-align: center;
+}
+
+.onboarding-section .alert-success {
+  font-family: "title-reg", sans-serif;
+  font-size: 16px;
+  line-height: 20px;
+  color: #1e4f1f;
+  text-align: center;
+}
+
+/*Reset password*/
+
+
+#page-login-forgot_password #fitem_id_username2 .felement{ 
+  background-color: #FDF1F7;
+  font-family: "title-semiBold", sans-serif;
+  padding: 19px 24px;
+  font-size: 18px;
+  line-height: 24px;
+  margin-bottom: 10px;
+  margin: 0 auto;
+  flex: 0 0 95% !important;
+  margin: auto !important;
+  max-width: 100% !important;
+}
+
+#page-login-forgot_password #fitem_id_passwordpolicyinfo .form-control-static {
+  font-family: "title-reg", sans-serif !important;
+  font-size: 14px !important;
+  line-height: 18px !important;
+  color: rgba(0, 0, 0, 0.38) !important;
+}
+
+#page-login-forgot_password .mform,
+#page-login-forgot_password .fcontainer { 
+  margin: 0 auto !important;
+}
+
+#page-login-forgot_password #region-main,
+#page-login-forgot_password #id_setpassword{
+  border: none !important;
+}
+
+#page-login-forgot_password #fgroup_id_buttonar span,
+#page-login-forgot_password #fitem_id_password .felement,
+#page-login-forgot_password #fitem_id_password2 .felement,
+#page-login-forgot_password #fitem_id_passwordpolicyinfo .felement {
+  flex: 0 0 100% !important;
+  margin: auto !important;
+  max-width: 100% !important;
+}
+
+
+
+#page-login-forgot_password .clearfix .ftoggler {
+  font-family: "title-semiBold", sans-serif !important;
+  font-size: 22px;
+  line-height: 28px;
+  text-align: center !important;
+  margin-bottom: 18px !important;
+}
+
+
+
+#page-login-forgot_password #id_password,
+#page-login-forgot_password #id_password2 { 
+width: 100% !important;
+background-color: #fff !important;
+border: 1px dashed #C11C71 !important;
+padding: 30px !important;
+font-family: "title-reg", sans-serif !important;
+font-size: 18px !important;
+line-height: 24px !important;
+margin-top: 18px !important;
+}
+
+
+
+#page-login-forgot_password #fgroup_id_buttonar .felement{
+  max-width: 100% !important;
+  flex: 0 0 60% !important;
+}
+@media only screen and (max-width: 600px) {
+#page-login-forgot_password #fgroup_id_buttonar .felement{
+  max-width: 100% !important;
+  flex: 0 0 100% !important;
+}
+}
+
+#page-login-forgot_password #fgroup_id_buttonar
+{
+  margin: 0 auto !important;
+  width: 340px !important;
+}
+
+
+
+
+#page-login-forgot_password #fgroup_id_buttonar .fitem{  
+  margin-top: 60px !important;
+  margin-left: auto !important;
+  margin-right: auto !important;
+}
+
+#page-login-forgot_password .fdescription {
+  margin-top: 70px !important;
+  text-align:center;
+}
+
+#page-login-forgot_password .align-items-center{
+    -webkit-box-pack: justify !important;
+    -ms-flex-pack: justify ;
+    justify-content: space-between !important;
+    flex-wrap: nowrap !important;
+}
+
+/*end Reset password */
